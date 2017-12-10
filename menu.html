@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>menu</title>
+<style>
+	.a {
+		width:100%;
+		height:680px;
+		background-color:lightgray;
+	}	
+#mother1{
+	width:100%;
+	height:30px;
+	background-color: gray;
+	line-height: 30px;
+}
+#child1{
+	width:100% ;
+	height:100% ;
+	background-color: lightgray;
+	list-style: square;
+	line-height: 30px;
+}
+#mother2{
+	width:100%;
+	height:30px;
+	background-color: gray;
+	line-height: 30px;
+}
+#child2{
+	width:100% ;
+	height:100% ;
+	background-color: lightgray;
+	list-style: square;
+	line-height: 30px;
+}
+#mother3{
+	width:100%;
+	height:30px;
+	background-color: gray;
+	line-height: 30px;
+}
+#child3{
+	width:100% ;
+	height:100% ;
+	background-color: lightgray;
+	list-style: square;
+	line-height: 30px;
+}
+#mother4{
+	width:100%;
+	height:30px;
+	background-color: gray;
+	line-height: 30px;
+}
+#child4{
+	width:100% ;
+	height:100% ;
+	background-color: lightgray;
+	list-style: square;
+	line-height: 30px;
+}
+#mother5{
+	width:100%;
+	height:30px;
+	background-color: gray;
+	line-height: 30px;
+}
+#child5{
+	width:100% ;
+	height:100% ;
+	background-color: lightgray;
+	list-style: square;
+	line-height: 30px;
+}
+#mother6{
+	width:100%;
+	height:60px;
+	background-color: gray;
+	line-height: 30px;
+}
+	</style>
+
+<script type="text/javascript">
+	function abc1(){
+    if(child1.style.display =="")
+       child1.style.display ="none";
+    else
+       child1.style.display ="";
+	}
+	function abc2(){
+    if(child2.style.display =="")
+       child2.style.display ="none";
+    else
+       child2.style.display ="";
+	}
+	function abc3(){
+    if(child3.style.display =="")
+       child3.style.display ="none";
+    else
+       child3.style.display ="";
+	}
+	function abc4(){
+    if(child4.style.display =="")
+       child4.style.display ="none";
+    else
+       child4.style.display ="";
+	}
+	function abc5(){
+    if(child5.style.display =="")
+       child5.style.display ="none";
+    else
+       child5.style.display ="";
+	}
+
+
+</script>
+</head>
+
+<body>
+<div class="a">後台管理系統
+<ul>
+	<div id="mother1" style="cursor:hand" onclick="abc1()">首頁管理</div>
+	    <div id="child1" style="display:none">
+	     <li><a href="indexnews.html" target="contentframe">最新消息管理</a><br></li>
+	     <li><a href="indexbanner.html" target="contentframe">輪播Banner管理</a><br></li>
+			 </div>
+	<div id="mother2" style="cursor:hand" onclick="abc2()">照片管理</div>
+	     <div id="child2" style="display:none">
+			   <li><a href="photocategory.html" target="contentframe">照片分類管理</a><br></li>
+			   <li><a href="photoedit.html" target="contentframe">照片編輯功能</a><br></li>
+				   </div>
+	<div id="mother3" style="cursor:hand" onclick="abc3()">影片管理</div>
+		<div id="child3" style="display:none">
+				<li><a href="vediocategory.html" target="contentframe">影片分類管理</a><br></li>
+				<li><a href="vedioedit.html" target="contentframe">影片編輯功能</a><br></li>
+							 </div>
+	<div id="mother4" style="cursor:hand" onclick="abc4()">贊助管理</div>
+		<div id="child4" style="display:none">
+				<li><a href="sponsercategory.html" target="contentframe">贊助分類管理</a><br></li>
+				<li><a href="sponseredit.html" target="contentframe">贊助編輯功能</a><br></li>
+							</div>
+	<div id="mother5" style="cursor:hand" onclick="abc5()">活動管理</div>
+		<div id="child5" style="display:none">
+				<li><a href="eventedit.html" target="contentframe">活動編輯功能</a><br></li>
+							</div>
+							<div id="mother6">
+<a href="content.html" target="contentframe" background-color="gray">回首頁</a><br>
+<a href="backend.html" target="contentframe">登出</a></div>
+</ul>
+
+</div>
+</body>
+</html>
